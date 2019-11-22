@@ -26,6 +26,7 @@ main1.c file1 file2
 $
 
 **Special Conditions:**
+
 -Must work if PATH exists.
 -What would happen if the PATH is erased?
 -How would the PATH search change if instead of ls I try /bin/ls?
