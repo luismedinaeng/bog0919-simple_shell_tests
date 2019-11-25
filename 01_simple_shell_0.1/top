@@ -1,0 +1,11 @@
+Task: 3. Simple shell 0.1
+
+Command to test:
+$ top
+
+Expected output:
+A table containing several information
+
+Special Conditions:
+It should run without issues, but if the code is wrong
+a possible error that can happen is "TERM variable not set"
