@@ -1,0 +1,20 @@
+Task: 10. Simple shell 0.4.2
+
+Command to test:
+$ as
+
+Expected output:
+The command should remain executing indefinitely and you should be able to exit with CTRL + C
+
+Special Conditions:
+After exiting the command, the prompt should print only once.
+
+$ as
+^C
+$
+
+If the code is wrong, a possible error will be the prompt printing twice.
+
+$ as
+^C
+$ $
