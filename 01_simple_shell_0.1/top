@@ -4,8 +4,8 @@ Command to test:
 $ top
 
 Expected output:
-A table containing several information
+A table containing several information from PID users
 
 Special Conditions:
-It should run without issues, but if the code is wrong
-a possible error that can happen is "TERM variable not set"
+It should run without issues,
+If the code is wrong a possible error is "TERM variable not set"
