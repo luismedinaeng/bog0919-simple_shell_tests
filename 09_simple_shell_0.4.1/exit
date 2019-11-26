@@ -1,0 +1,24 @@
+Task: 9. Simple shell 0.4.1
+
+#Exit your shell with different arguments
+#Negative numbers & larger numbers than 255
+
+#Command to test
+$exit -100
+
+Expected output:
+sh: 1: exit: Illegal number: -100
+
+#Command to test
+$exit 300
+
+Expected output:
+echo $?
+44
+
+#Command to test
+$exit 100 44 650
+
+Expected output:
+echo $?
+100

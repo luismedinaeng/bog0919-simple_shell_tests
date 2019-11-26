@@ -1,0 +1,19 @@
+Task 1: Simple shell 0.1
+
+Command to test:
+./hsh ls
+
+Expected output:
+sh: 0: Can't open ls
+
+Command to test:
+./hsh /bin/ls
+
+Expected output:
+/bin/ls: 1: /bin/ls: Syntax error: "(" unexpected
+
+Command to test:
+./hsh ls ls
+
+Expected output:
+sh: 0: Can't open ls
