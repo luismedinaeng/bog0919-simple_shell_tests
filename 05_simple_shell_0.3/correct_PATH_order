@@ -1,0 +1,12 @@
+Task: 7. Simple shell 0.3
+
+Command to test:
+$ ./ls
+
+Expected output:
+./hsh: 1: ./ls: not found
+
+Special Conditions:
+Commands that contain a slash must be executed without any search. Meaning that it would be wrong to find
+ls in PATH in this case.
+Error: If the command executes.
