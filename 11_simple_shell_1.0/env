@@ -1,0 +1,32 @@
+Task: 11. Simple shell 1.0.
+
+Command to test:
+$ env
+
+Expected output:
+The command should print the environmental variables
+
+Special Conditions:
+After use another commmand, the PATH variable should remain without changes
+
+$ env
+...
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+...
+$
+
+If the code is wrong, a possible error will print the PATH variable truncated
+
+$ env
+...
+PATH
+...
+$
+
+Or
+
+$ env
+...
+PATH=/usr/local/sbin
+...
+$
